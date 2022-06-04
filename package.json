@@ -1,0 +1,26 @@
+{
+  "name": "0-ts-vite",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "start": "vite start",
+    "deploy-surge-share": "cd dist && surge",
+    "test": "vite test",
+    "lint": "vite lint",
+    "e2e": "vite e2e",
+    "e2e-watch": "vite e2e --watch"
+  },
+  "devDependencies": {
+    "@types/toastify-js": "^1.11.1",
+    "@types/uuid": "^8.3.4",
+    "typescript": "^4.7.3",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "toastify-js": "^1.11.2",
+    "uuid": "^8.3.2"
+  }
+}
